@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="toDo.css">
+	<title>To Do List</title>
+</head>
+
+<body>
+	<header>
+		<h1 style="font-family: Tahoma; font-weight: 800; margin-bottom: 1rem ;">John's To Do List</h1>
+		<form id="new-task-form">
+			<input type="text" id="add" placeholder="Add Your New Task..." />
+			<input type="button" id=addButton value="Add Task" onclick="addItem()" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+			<div id="tasks">
+				<ul id="myUL">
+					<li>Workout</li>
+					<li>Pay bills</li>
+					<li>Study</li>
+					<li>Check mail</li>
+					<li>Read a book</li>
+					<li>Clean Kitchen</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<script src="toDo.js"></script>
+</body>
+
+</html>
